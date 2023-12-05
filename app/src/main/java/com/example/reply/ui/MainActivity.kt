@@ -61,11 +61,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Preview(
-    uiMode = UI_MODE_NIGHT_YES,
+    uiMode = UI_MODE_NIGHT_YES, //modo oscuro
     name = "DefaultPreviewDark"
 )
 @Preview(
-    uiMode = UI_MODE_NIGHT_NO,
+    uiMode = UI_MODE_NIGHT_NO, //modo luz
     name = "DefaultPreviewLight"
 )
 @Composable
