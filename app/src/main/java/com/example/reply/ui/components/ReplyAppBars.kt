@@ -64,7 +64,7 @@ fun ReplySearchBar(modifier: Modifier = Modifier) {
             style = MaterialTheme.typography.bodyMedium,
         )
         ReplyProfileImage(
-            drawableResource = R.drawable.avatar_6,
+            drawableResource = R.drawable.avatar_0,
             description = stringResource(id = R.string.profile),
             modifier = Modifier
                 .padding(12.dp)
